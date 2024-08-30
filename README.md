@@ -66,14 +66,30 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
- 
+ Developed by: Easwari M
+ RegisterNumber: 212223240033
+
+ ```
+ module Logicgates(a,b,andgate,orgate,notgate
+ nandgate,norgate,xorgate,xnorgate);
+ input a,b;
+ output andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate;
+ and(andgate,a,b);
+ or(orgate,a,b);
+ not(notgate,a);
+ nand(nandgate,a,b);
+ nor(norgate,a,b);
+ xor(xorgate,a,b);
+ xnor(xnorgate,a,b);
+ endmodule
+ ```
+ ![logic](code.png)
 **Logic symbol & Truthtable**
+![logic](logic.png)
 
 **RTL realization Output:** 
-
+![logic](gate.png)
 **RTL**
-
+![logic](wave.png)
 **Result:**
-
-
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
