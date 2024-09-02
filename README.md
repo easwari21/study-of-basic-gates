@@ -50,10 +50,9 @@ The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will gi
 Y= A⊕B
 
 **Procedure** 
-
 1.	Type the program in Quartus software.
 
-2.	Compile and run the program.
+2. Compile and run the program.
 
 3.	Generate the RTL schematic and save the logic diagram.
 
@@ -87,9 +86,12 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 **Logic symbol & Truthtable**
 ![logic](logic.png)
 
+
 **RTL realization Output:** 
 ![logic](gate.png)
+
 **RTL**
 ![logic](wave.png)
+
 **Result:**
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
